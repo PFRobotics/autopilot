@@ -13,4 +13,7 @@ motor motorBackRight = motor(PORT1, gearSetting::ratio18_1, false);
 vision visonsSensor = vision(PORT3, 50);
 
 // Range finder
-sonar RangeFinderA = sonar(Brain.ThreeWirePort.A); 
+sonar RangeFinderA = sonar(Brain.ThreeWirePort.A);
+
+// Inertial sensor
+inertial Inertial13 = inertial(PORT13);

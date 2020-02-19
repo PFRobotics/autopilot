@@ -8,6 +8,11 @@
 /*----------------------------------------------------------------------------*/
 
 #include "vex.h"
+
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// ---- END VEXCODE CONFIGURED DEVICES ----
 #include "devices.h"
 
 using namespace vex;
